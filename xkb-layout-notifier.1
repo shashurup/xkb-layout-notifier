@@ -1,0 +1,25 @@
+.\" Process this file with
+.\" groff -man -Tascii foo.1
+.\"
+.TH XKB-LAYOUT-NOTIFIER 1 "JUNE 2011" Linux "User Manuals"
+.SH NAME
+xkb-layout-notifier \- notifies about xkb layout changes.
+.SH SYNOPSIS
+.B xkb-layout-notifier [
+.I shell-command
+.B ]
+.SH DESCRIPTION
+.B xkb-layout-notifier
+executes
+.I shell-command
+each time current xkb layout changes. Before command is executed %s
+is replaced with current layout code. If
+.I shell-command
+is not specified
+.B xkb-layout-notifier
+outputs current layout code and exits immediately.
+.SH EXAMPLE
+xkb-layout-notifier "echo %s"
+- outputs layout code each time current layout changes.
+.SH AUTHOR
+George Kibardin <george dot kibardin at gmail dot com>
