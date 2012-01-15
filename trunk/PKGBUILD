@@ -1,7 +1,7 @@
 # Contributor: George Kibardin <george dot kibardin at gmail dot com>
 pkgname=xkb-layout-notifier
-pkgver=0.1
-pkgrel=2
+pkgver=0.2
+pkgrel=1
 pkgdesc="Executes arbitrary shell command when current xkb layout changes"
 arch=('i686' 'x86_64')
 url="http://code.google.com/p/xkb-layout-notifier"
