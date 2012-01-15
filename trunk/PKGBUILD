@@ -8,7 +8,7 @@ url="http://code.google.com/p/xkb-layout-notifier"
 license=('BSD')
 depends=('libxext' 'libx11')
 source=(http://xkb-layout-notifier.googlecode.com/files/$pkgname-$pkgver.tar.gz)
-md5sums=('bdb477607d8d2a99df499f9878d48a22')
+md5sums=('1d4fc8fc9dc05abb3bd6d691ae4f3f34')
 
 build() {
   cd "$srcdir"
